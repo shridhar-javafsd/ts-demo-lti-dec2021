@@ -12,10 +12,18 @@
 // type notation is applicable to everything - 
 // variables, parameters, arguments, return types, 
 // arrays, objects, object properties.. 
+// const fun = (num: number, num2: number) => {
+//     console.log(num + num2);
+// }
+// fun();
+// fun(10, 20);
+// fun(10, 20, 30);
+// fun('abc', 'def');
 var fun = function (num, num2) {
-    console.log(num + num2);
+    // return num + num2;
+    return 'abc';
 };
-fun();
-fun(10, 20);
-fun(10, 20, 30);
-fun('abc', 'def');
+console.log(fun(10, 20));
+// fun(10, 20);
+// fun(10, 20, 30);
+// fun('abc', 'def');

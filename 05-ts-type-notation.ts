@@ -19,12 +19,23 @@
 // arrays, objects, object properties.. 
 
 
-const fun = (num: number, num2: number) => {
-    console.log(num + num2);
+// const fun = (num: number, num2: number) => {
+//     console.log(num + num2);
+// }
+
+// fun();
+// fun(10, 20);
+// fun(10, 20, 30);
+// fun('abc', 'def');
+
+const fun = (num: number, num2: number): number => {
+    // return num + num2;
+    return 'abc';
 }
 
-fun();
-fun(10, 20);
-fun(10, 20, 30);
-fun('abc', 'def');
+console.log(fun(10, 20));
+
+// fun(10, 20);
+// fun(10, 20, 30);
+// fun('abc', 'def');
 
