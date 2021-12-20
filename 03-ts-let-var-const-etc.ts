@@ -17,3 +17,4 @@ num3 = 35;
 // num4 = 45; // error 
 console.log(num3);
 console.log(num4);
+
